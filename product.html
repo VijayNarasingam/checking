@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Product</title>
+  <style>
+    #add-product-container {
+      width: 300px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="add-product-container">
+    <h2>Add New Product</h2>
+    <form id="add-product-form" onsubmit="return addProduct()">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" name="productName" required><br><br>
+
+      <label for="category">Category:</label>
+      <input type="text" id="category" name="category" required><br><br>
+
+      <label for="image">Image URL:</label>
+      <input type="text" id="image" name="image" required><br><br>
+
+      <label for="link">Product Link:</label>
+      <input type="text" id="link" name="link" required><br><br>
+
+      <label for="detail">Detail:</label>
+      <textarea id="detail" name="detail" required></textarea><br><br>
+
+      <input type="submit" value="Add Product">
+    </form>
+    <p id="success-message" style="color:green;"></p>
+    <p id="error-message" style="color:red;"></p>
+  </div>
+
+  <button id="back-button">Back to Products</button>
+  <button onclick="logout()">Logout</button>
+</div>
+
+  <script src="addProduct.js"></script>
+  <script>
+    // Check if the user is logged in
+    window.onload = function() {
+      const isLoggedIn = localStorage.getItem("isLoggedIn");
+      if (isLoggedIn !== "true") {
+        // Redirect to login page if not logged in
+        window.location.href = "login.html";
+      }
+    };
+</script>
+</body>
+</html>
