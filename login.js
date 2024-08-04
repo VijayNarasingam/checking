@@ -6,7 +6,7 @@ function verifyLogin() {
     const errorMessage = document.getElementById("error-message");
   
     // Fetch users from the db.json file
-    fetch('https://vijaynarasingam.github.io/checking/db.json')
+    fetch('https://my-json-server.typicode.com/VijayNarasingam/checking/Login')
       .then(response => response.json())
       .then(users => {
         // Check if the entered credentials match any user
