@@ -7,49 +7,49 @@
     ],
         "products": [
            
-            {
+           {
         
-        productName: "Login page",
-        category: "Login_page",
-        image: "img/login_page_1.jpg",
-        detail: "Border Line Animation",
-        link:"loginpage/Login.html",
-        
-      },
-      {
-        id:2,
-        productName: "Perfume",
-        category: "Web_page",
-        image: "img/perfume.jpg",
-        detail: "Perfume Shop Web page",
-        link:"perfume/perfume.html",
-      },
-      {
-        id:3,
-        productName: "Tic Tac Toe",
-        category: "Web_App",
-        image: "img/Tic Tac Toe.png",
-        detail: "Tic Tac Toe Game",
-        link:"https://vijaynarasingam.github.io/Tic-Tac-Toe",
-      },
+      "productName": "Login page",
+      "category": "Login_page",
+      "image": "img/login_page_1.jpg",
+      "detail": "Border Line Animation",
+      "link":"loginpage/Login.html",
+      
+    },
+    {
+      "id":2,
+      "productName": "Perfume",
+      "category": "Web_page",
+      "image": "img/perfume.jpg",
+      "detail": "Perfume Shop Web page",
+      "link":"perfume/perfume.html",
+    },
+    {
+      "id":3,
+      "productName": "Tic Tac Toe",
+      "category": "Web_App",
+      "image": "img/Tic Tac Toe.png",
+      "detail": "Tic Tac Toe Game",
+      "link":"https://vijaynarasingam.github.io/Tic-Tac-Toe",
+    },
 
-      {
-        id:4,
-        productName: "DreamEscape Travels",
-        category: "Web_page",
-        image: "img/DreamEscapeTravels.png",
-        detail: "Travels web Page",
-        link:"https://vijaynarasingam.github.io/DreamEscapeTravels/",
-      },
+    {
+      "id":4,
+      "productName": "DreamEscape Travels",
+      "category": "Web_page",
+      "image": "img/DreamEscapeTravels.png",
+      "detail": "Travels web Page",
+      "link":"https://vijaynarasingam.github.io/DreamEscapeTravels/",
+    },
 
-      {
-        id:5,
-        productName: "Yugan Photography",
-        category: "Web_page",
-        image: "img/yugan.png",
-        detail: "Photographer web page",
-        link:"https://vijaynarasingam.github.io/yugan_photography/",
-      },
+    {
+      "id":5,
+      "productName": "Yugan Photography",
+      "category": "Web_page",
+      "image": "img/yugan.png",
+      "detail": "Photographer web page",
+      "link":"https://vijaynarasingam.github.io/yugan_photography/",
+    },
 
         ]
 
