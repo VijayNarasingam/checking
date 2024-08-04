@@ -6,7 +6,7 @@ function verifyLogin() {
     const errorMessage = document.getElementById("error-message");
   
     // Fetch users from the db.json file
-    fetch('http://localhost:3000/Login')
+    fetch('https://vijaynarasingam.github.io/checking/db.json')
       .then(response => response.json())
       .then(users => {
         // Check if the entered credentials match any user
